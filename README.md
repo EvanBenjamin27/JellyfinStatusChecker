@@ -1,4 +1,4 @@
-#Jellyfin Status Checker
+# Jellyfin Status Checker
 
 This is something I made for my homelab server website.
 It shows a dot that changes from red to green depending on the current running status of your Jellyfin server.
