@@ -1,0 +1,26 @@
+.status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.9rem;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.online {
+    background: #00ff7f;
+    box-shadow: 0 0 10px #00ff7f;
+}
+
+.offline {
+    background: #ff3b3b;
+    box-shadow: 0 0 10px #ff3b3b;
+}
