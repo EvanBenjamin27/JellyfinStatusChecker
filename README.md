@@ -10,6 +10,8 @@ You will need to setup your own HTML file as I just provide the div needed.
 Within your Jellyfin server under the system folder there is a json file ( http://localhost:8096/System/Ping ).
 My script gets that json file and logs if it is accessible or not (indicating that the server is active)
 
+<img width="774" height="168" alt="Screenshot 2026-05-14 203042" src="https://github.com/user-attachments/assets/6ad446f0-3863-497b-8121-4b838e920644" />
+
 ## Debug and Testing
 
 check out test.js when initaly implementing and it should say online as it is reaching out for a test ping.json on this page in the folder System/Ping/ping.json
